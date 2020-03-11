@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.todo{
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: #282c34;
+}
+
+.remove {
+  float: right;
+  padding: 10px;
+  background-color: coral;
+}
+
+.add{
+  float: right;
+  padding: 10px;
+  background-color: blue;
+  color:white;
+}
+
+.todo-container {
+text-align: center;
+max-width: 800 px;
+padding: 50px;
+background: mediumturquoise;
+margin: auto;
+height: 100vh;
+font-size: 35px;
+font-weight: bold;
+}
+
+.form-label {
+  overflow: hidden; 
+  font-size: 35px;
+  color: crimson;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
